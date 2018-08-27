@@ -1,0 +1,45 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.square {
+  border: 1px solid #999;
+  float: left;
+  height: 54px;
+  padding: 0;
+  text-align: center;
+  width: 54px;
+}
+
+.square.blank {
+  background: #fff;
+}
+
+.square.selected {
+  background: #ffe4e1;
+}
+
+.square.filled {
+  background: #800080;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-result {
+  padding-top: 10px;
+}
+
+.game-controls {
+  padding-top: 10px;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
